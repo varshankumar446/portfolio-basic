@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    padding: 50px;
+}
+
+.one {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.one__name {
+    font-size: 60px;
+}
+
+.one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.two,
+.three,
+.four,
+.five {
+    margin-top: 20px;
+}
+
+.two__para,
+.three__des,
+.four__des,
+.five__des {
+    margin-top: 10px;
+}
+
+.five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.five__topic a {
+    color: skyblue;
+}
+
+.four__des li,
+.three__des li {
+    list-style: none;
+}
+
+.three {
+    background-color: #6462fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.four {
+    background-color: #fe7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.cont{
+    margin-top: 20px;
+}
+.cont__one,.cont__text,.cont__submit{
+    margin-top: 20px;
+}
+.cont__one{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.cont__text{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+.cont__submit{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aqua;
+    color: black;
+    border: none;
+}
